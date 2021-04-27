@@ -10,8 +10,19 @@ document.getElementById("submit").onclick = function (evt) {
     description: formData.get("description"),
     color: formData.get("color")
 
-  }).then(processResults);
+  }).then(processResults).catch(handleErrors);
 
+};
+
+function handleErrors({response}){
+
+  const errors = response.data;
+  for(let i = 0; i <errors.length; i++){
+
+    const {field, message} = errors[i];
+    const element = document.getElementsByName(field)[0].nextElementSibling;
+    element.textContent = message;
+  }
 };
 
 function processResults({ data }) {
