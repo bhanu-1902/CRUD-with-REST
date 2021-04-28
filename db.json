@@ -41,20 +41,12 @@
       "id": "107983dd-84b4-4630-a428-4f99800ea3fd"
     },
     {
-      "name": "uhasud",
-      "price": "3",
-      "quantity": "",
-      "description": "",
+      "name": "Harshit",
+      "price": "23",
+      "quantity": "24545",
+      "description": "Yay end point done once agian",
       "color": "red",
-      "id": "e6745ae7-caf8-468e-a4b6-6588e1aaa593"
-    },
-    {
-      "name": "dd",
-      "price": "",
-      "quantity": "",
-      "description": "",
-      "color": "",
-      "id": "0837e27b-7947-4c87-984c-32bf6788e511"
+      "id": "dd1b83e8-a13f-4e92-b760-4a890d9e7e4a"
     }
   ]
 }
